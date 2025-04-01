@@ -60,10 +60,27 @@ li a {
     text-align: center;
     margin: 0;
     padding: 16px;
+    cursor: pointer;
 }
 
 li a:hover {
     margin: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#navigation a.active {
+    color: red;
 }
 
 #block1 {
@@ -74,14 +91,6 @@ li a:hover {
     text-align: left;
     line-height: 33px;
 }
-
-#pointer {
-    position: absolute;
-    padding-left: 50px;
-    padding-top: 22px;
-    z-index: 2;
-}
-
 
 @media (max-width: 800px) {
     li {
