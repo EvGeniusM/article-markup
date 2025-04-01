@@ -84,4 +84,54 @@ li a:hover {
 
 
 @media (max-width: 800px) {
+    li {
+        float: none;
+        margin-left: 20px;
+    }
+
+    li a {
+        display: block;
+        color: black;
+        text-align: left;
+        margin: 16px 0;
+        padding: 0px;
+    }
+
+    .header {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 20px;
+        text-align: left;
+        line-height: 18px;
+        color: #333333;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        margin: 0;
+        width: 100%;
+    }
+
+    h1 {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        font-size: 26px;
+        line-height: 44px;
+    }
+
+    h2 {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 44px;
+    }
+
+    #img1 {
+        width: 20%;
+        padding-top: 15px;
+        margin: 16px 16px 16px 16px;
+    }
+
+    #block1 {
+        margin: 20px;
+    }
 }
